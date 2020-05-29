@@ -1,0 +1,86 @@
+body{
+    background: linear-gradient(445deg, rgba(80,10,93,0.8) 0%, rgba(142,55,159,0.8) 100%);
+    background-size: cover;
+    background-color: aqua;
+}
+/* Head CSS */
+.brand-name-head{
+    color: #E3E3E3;
+    font-size: 4.2rem;
+    margin: 0 3rem;
+}
+.brand-name-head:active, .brand-name-head:focus {
+    outline: none;
+}
+.brand-name-head:hover{
+    color: white;
+}
+.head-and-wave{
+    background: linear-gradient(445deg, rgba(80,10,93,0.8) 0%, rgba(142,55,159,0.8) 100%), url("../images/wave-large-reversed.png") center no-repeat;
+    background-size: cover;
+    background-color: aqua;
+    min-height: 13rem;
+}
+/* Hero CSS */
+.act-third-list > li.active{
+    background-color: #CAADFF;
+    border: none;
+}
+.enab-act-some > a.active {
+    background-color: #CAADFF !important;
+    border: none;
+}
+.flex-rm-outline:active, .flex-rm-outline:focus {
+    outline: none;
+}
+.info-lists-thing{
+    margin-top: 1rem;
+}
+.list-thing-something:hover{
+    opacity: 0.8;
+}
+.notif-thing{
+    background-color: #CAADFF;
+    border-radius: 50%;
+    cursor: pointer;
+    float: right;
+    height: 24px;
+    opacity: 0.7;
+    text-align: center;
+    width: 25px;
+}
+.notif-thing:hover{
+    opacity: 1;
+}
+/* FOOTER SECTION CSS */
+footer{
+    padding: 2.5rem 0;
+	background-color: #CAADFF;
+	text-align: center;
+	color: rgba(0,0,0,.7);
+}
+/* MEDIA QUERIES */
+@media screen and (max-width:365px){
+    .brand-name-head{
+        margin: 0 2rem;
+    }
+}
+@media screen and (max-width:330px){
+    .brand-name-head{
+        margin: 0 1rem;
+    }
+}
+@media (min-width: 768px) and (max-width:991px){
+    .notif-thing{
+        height: 23px;
+        width: 22px;
+    }
+}
+@media (min-width: 576px) and (max-width:768px){
+    .notif-thing{
+        height: 23px;
+        position: absolute;
+        right: 1px;
+        width: 22px;
+    }
+}
